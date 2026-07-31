@@ -1,0 +1,82 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {},
+  "packages.conda": {
+    "emacs-31.0.50-h2c165bd_0.conda": {
+      "arch": "x86_64",
+      "build": "h2c165bd_0",
+      "build_number": 0,
+      "depends": [
+        "binutils",
+        "gmp",
+        "gnutls",
+        "libsqlite",
+        "libtree-sitter 0.26.*",
+        "libxml2",
+        "ncurses",
+        "zlib",
+        "libstdcxx >=14",
+        "libgcc >=14",
+        "mpfr >=4.2.2,<5.0a0",
+        "libsqlite >=3.53.4,<4.0a0",
+        "libzlib >=1.3.2,<2.0a0",
+        "libxml2-16 >=2.15.3",
+        "gnutls >=3.8.13,<3.9.0a0",
+        "gmp >=6.3.0,<7.0a0",
+        "ncurses >=6.6,<7.0a0",
+        "libtree-sitter >=0.26.11,<0.27.0a0",
+        "mpc >=1.4.0,<2.0a0"
+      ],
+      "license": "GPL-3.0-only",
+      "name": "emacs",
+      "platform": "linux",
+      "subdir": "linux-64",
+      "timestamp": 1785433010913,
+      "version": "31.0.50",
+      "size": 91437561,
+      "sha256": "d2e8f6c57a2c86f7d4622d7fb752e53bc716e1502943712166c488a3e29ef468"
+    },
+    "htop-vim-2.2.0-hf9bef72_0.conda": {
+      "arch": "x86_64",
+      "build": "hf9bef72_0",
+      "build_number": 0,
+      "depends": [
+        "ncurses",
+        "libgcc >=14",
+        "ncurses >=6.6,<7.0a0"
+      ],
+      "license": "GPL-2.0-only",
+      "name": "htop-vim",
+      "platform": "linux",
+      "subdir": "linux-64",
+      "timestamp": 1785488993968,
+      "version": "2.2.0",
+      "size": 105313,
+      "sha256": "1182b65a4edf85fc4000d9a0953e09eea9d4423ab9849c3aac0cfb4038940dd4"
+    },
+    "tmux-3.5a-hf9bef72_0.conda": {
+      "arch": "x86_64",
+      "build": "hf9bef72_0",
+      "build_number": 0,
+      "depends": [
+        "libevent",
+        "ncurses",
+        "libgcc >=14",
+        "libevent >=2.1.12,<2.1.13.0a0",
+        "ncurses >=6.6,<7.0a0"
+      ],
+      "license": "ISC",
+      "name": "tmux",
+      "platform": "linux",
+      "subdir": "linux-64",
+      "timestamp": 1785488957817,
+      "version": "3.5a",
+      "size": 1712615,
+      "sha256": "559c900ef78258a1fde68493cb2b5b7ce88c177d9badbc0fcc4c37be985d5a8c"
+    }
+  },
+  "removed": [],
+  "repodata_version": 2
+}
