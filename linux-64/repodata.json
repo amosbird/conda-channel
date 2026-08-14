@@ -4,10 +4,10 @@
   },
   "packages": {},
   "packages.conda": {
-    "emacs-31.0.50-h2c165bd_0.conda": {
+    "ab-emacs-31.0.50-h2c165bd_8.conda": {
       "arch": "x86_64",
-      "build": "h2c165bd_0",
-      "build_number": 0,
+      "build": "h2c165bd_8",
+      "build_number": 8,
       "depends": [
         "binutils",
         "gmp",
@@ -19,47 +19,47 @@
         "zlib",
         "libstdcxx >=14",
         "libgcc >=14",
-        "mpfr >=4.2.2,<5.0a0",
-        "libsqlite >=3.53.4,<4.0a0",
+        "gmp >=6.3.0,<7.0a0",
         "libzlib >=1.3.2,<2.0a0",
         "libxml2-16 >=2.15.3",
-        "gnutls >=3.8.13,<3.9.0a0",
-        "gmp >=6.3.0,<7.0a0",
+        "libsqlite >=3.53.4,<4.0a0",
         "ncurses >=6.6,<7.0a0",
-        "libtree-sitter >=0.26.11,<0.27.0a0",
-        "mpc >=1.4.0,<2.0a0"
+        "gnutls >=3.8.13,<3.9.0a0",
+        "mpc >=1.4.0,<2.0a0",
+        "mpfr >=4.2.2,<5.0a0",
+        "libtree-sitter >=0.26.12,<0.27.0a0"
       ],
       "license": "GPL-3.0-only",
-      "name": "emacs",
+      "name": "ab-emacs",
       "platform": "linux",
+      "sha256": "588e4216fbc2ae7839af9fb903ea5eaa5b914a3da2386ff45c81074266f26fa3",
+      "size": 91436717,
       "subdir": "linux-64",
-      "timestamp": 1785433010913,
-      "version": "31.0.50",
-      "size": 91437561,
-      "sha256": "d2e8f6c57a2c86f7d4622d7fb752e53bc716e1502943712166c488a3e29ef468"
+      "timestamp": 1786639232787,
+      "version": "31.0.50"
     },
-    "htop-vim-2.2.0-hf9bef72_0.conda": {
+    "ab-htop-vim-2.2.0-hf9bef72_3.conda": {
       "arch": "x86_64",
-      "build": "hf9bef72_0",
-      "build_number": 0,
+      "build": "hf9bef72_3",
+      "build_number": 3,
       "depends": [
         "ncurses",
         "libgcc >=14",
         "ncurses >=6.6,<7.0a0"
       ],
       "license": "GPL-2.0-only",
-      "name": "htop-vim",
+      "name": "ab-htop-vim",
       "platform": "linux",
+      "sha256": "0721197aa857d22f55abab39e94c422688f471601110526e6ed8d091e6c14811",
+      "size": 105741,
       "subdir": "linux-64",
-      "timestamp": 1785488993968,
-      "version": "2.2.0",
-      "size": 105313,
-      "sha256": "1182b65a4edf85fc4000d9a0953e09eea9d4423ab9849c3aac0cfb4038940dd4"
+      "timestamp": 1786639215352,
+      "version": "2.2.0"
     },
-    "tmux-3.5a-hf9bef72_0.conda": {
+    "ab-tmux-3.5a-hf9bef72_2.conda": {
       "arch": "x86_64",
-      "build": "hf9bef72_0",
-      "build_number": 0,
+      "build": "hf9bef72_2",
+      "build_number": 2,
       "depends": [
         "libevent",
         "ncurses",
@@ -68,13 +68,48 @@
         "ncurses >=6.6,<7.0a0"
       ],
       "license": "ISC",
-      "name": "tmux",
+      "name": "ab-tmux",
+      "platform": "linux",
+      "sha256": "0e6fbf0e46c99c4d23ff1284bcf734478a334d1656d4fe1a4f8c43f6a38c91fd",
+      "size": 1712984,
+      "subdir": "linux-64",
+      "timestamp": 1786639188431,
+      "version": "3.5a"
+    },
+    "emacs-tree-sitter-grammars-2026.08.12-h2c165bd_0.conda": {
+      "arch": "x86_64",
+      "build": "h2c165bd_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc",
+        "libstdcxx",
+        "libstdcxx >=14",
+        "libgcc >=14"
+      ],
+      "license": "MIT",
+      "name": "emacs-tree-sitter-grammars",
+      "platform": "linux",
+      "sha256": "1475d5ead6386423415584f09f6035bd24d14df9c92f1701a7141875a173e30c",
+      "size": 3563264,
+      "subdir": "linux-64",
+      "timestamp": 1786555348564,
+      "version": "2026.08.12"
+    },
+    "ab-dtach-0.9-hf9bef72_4.conda": {
+      "arch": "x86_64",
+      "build": "hf9bef72_4",
+      "build_number": 4,
+      "depends": [
+        "libgcc >=14"
+      ],
+      "license": "GPL-2.0-or-later",
+      "name": "ab-dtach",
       "platform": "linux",
       "subdir": "linux-64",
-      "timestamp": 1785488957817,
-      "version": "3.5a",
-      "size": 1712615,
-      "sha256": "559c900ef78258a1fde68493cb2b5b7ce88c177d9badbc0fcc4c37be985d5a8c"
+      "timestamp": 1786713909030,
+      "version": "0.9",
+      "size": 23419,
+      "sha256": "d26c21088c29a5e6de06e739d3960e494446494f3a757ceeb1803ba94a02efe2"
     }
   },
   "removed": [],
