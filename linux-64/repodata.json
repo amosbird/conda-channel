@@ -4,44 +4,6 @@
   },
   "packages": {},
   "packages.conda": {
-    "ab-htop-vim-2.2.0-hf9bef72_3.conda": {
-      "arch": "x86_64",
-      "build": "hf9bef72_3",
-      "build_number": 3,
-      "depends": [
-        "ncurses",
-        "libgcc >=14",
-        "ncurses >=6.6,<7.0a0"
-      ],
-      "license": "GPL-2.0-only",
-      "name": "ab-htop-vim",
-      "platform": "linux",
-      "sha256": "0721197aa857d22f55abab39e94c422688f471601110526e6ed8d091e6c14811",
-      "size": 105741,
-      "subdir": "linux-64",
-      "timestamp": 1786639215352,
-      "version": "2.2.0"
-    },
-    "ab-tmux-3.5a-hf9bef72_2.conda": {
-      "arch": "x86_64",
-      "build": "hf9bef72_2",
-      "build_number": 2,
-      "depends": [
-        "libevent",
-        "ncurses",
-        "libgcc >=14",
-        "libevent >=2.1.12,<2.1.13.0a0",
-        "ncurses >=6.6,<7.0a0"
-      ],
-      "license": "ISC",
-      "name": "ab-tmux",
-      "platform": "linux",
-      "sha256": "0e6fbf0e46c99c4d23ff1284bcf734478a334d1656d4fe1a4f8c43f6a38c91fd",
-      "size": 1712984,
-      "subdir": "linux-64",
-      "timestamp": 1786639188431,
-      "version": "3.5a"
-    },
     "emacs-tree-sitter-grammars-2026.08.12-h2c165bd_0.conda": {
       "arch": "x86_64",
       "build": "h2c165bd_0",
@@ -77,10 +39,28 @@
       "size": 23419,
       "sha256": "d26c21088c29a5e6de06e739d3960e494446494f3a757ceeb1803ba94a02efe2"
     },
-    "ab-emacs-31.0.50-h2c165bd_9.conda": {
+    "ab-htop-vim-2.2.0-hf9bef72_4.conda": {
       "arch": "x86_64",
-      "build": "h2c165bd_9",
-      "build_number": 9,
+      "build": "hf9bef72_4",
+      "build_number": 4,
+      "depends": [
+        "ncurses",
+        "libgcc >=14",
+        "ncurses >=6.6,<7.0a0"
+      ],
+      "license": "GPL-2.0-only",
+      "name": "ab-htop-vim",
+      "platform": "linux",
+      "subdir": "linux-64",
+      "timestamp": 1787824380150,
+      "version": "2.2.0",
+      "size": 105176,
+      "sha256": "69c2a477147c1a1bf2195942ef4b899f1e33617cab780e083527b19f267effb1"
+    },
+    "ab-emacs-31.0.50-h2c165bd_13.conda": {
+      "arch": "x86_64",
+      "build": "h2c165bd_13",
+      "build_number": 13,
       "depends": [
         "binutils",
         "gmp",
@@ -92,24 +72,44 @@
         "zlib",
         "libgcc >=14",
         "libstdcxx >=14",
-        "libsqlite >=3.53.4,<4.0a0",
-        "mpfr >=4.2.2,<5.0a0",
-        "gmp >=6.3.0,<7.0a0",
-        "gnutls >=3.8.13,<3.9.0a0",
-        "ncurses >=6.6,<7.0a0",
-        "libxml2-16 >=2.15.3",
         "libzlib >=1.3.2,<2.0a0",
         "mpc >=1.4.0,<2.0a0",
-        "libtree-sitter >=0.26.12,<0.27.0a0"
+        "gnutls >=3.8.13,<3.9.0a0",
+        "gmp >=6.3.0,<7.0a0",
+        "libtree-sitter >=0.26.12,<0.27.0a0",
+        "libxml2-16 >=2.15.3",
+        "mpfr >=4.2.2,<5.0a0",
+        "ncurses >=6.6,<7.0a0",
+        "libsqlite >=3.53.4,<4.0a0"
       ],
       "license": "GPL-3.0-only",
       "name": "ab-emacs",
       "platform": "linux",
       "subdir": "linux-64",
-      "timestamp": 1787578767299,
+      "timestamp": 1787829581242,
       "version": "31.0.50",
-      "size": 91436926,
-      "sha256": "3dee02feefdd123b648e299f2cbac7412d396be2cc4db5621f1ecdf857821c91"
+      "size": 91435490,
+      "sha256": "e28591afde9dd10834b3f8294b3e3df72bb1b981eff8c69b2051b9ce2254050c"
+    },
+    "ab-tmux-3.5a-hf9bef72_4.conda": {
+      "arch": "x86_64",
+      "build": "hf9bef72_4",
+      "build_number": 4,
+      "depends": [
+        "libevent",
+        "ncurses",
+        "libgcc >=14",
+        "ncurses >=6.6,<7.0a0",
+        "libevent >=2.1.12,<2.1.13.0a0"
+      ],
+      "license": "ISC",
+      "name": "ab-tmux",
+      "platform": "linux",
+      "subdir": "linux-64",
+      "timestamp": 1792732908103,
+      "version": "3.5a",
+      "size": 1723448,
+      "sha256": "4dd0dc8bdefe7f3adae9d5dc110c187b01d83208225bef4b9c7b14ba40f229b3"
     }
   },
   "removed": [],
